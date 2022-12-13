@@ -39,21 +39,21 @@ function NavBar() {
         <Image src={fblogo} alt="logo" width={105} height={100} />
         <div>
           <ul className="hidden md:flex">
-            <Link href="/">
+            <Link scroll={false} href="/#home">
               <li className="ml-10 text-sm uppercase hover:border-b">Home</li>
             </Link>
-            <Link href="/#about" scroll={false}>
+            <Link scroll={false} href="/#about">
               <li className="ml-10 text-sm uppercase hover:border-b">About</li>
             </Link>
-            <Link href="/#skills" scroll={false}>
+            <Link scroll={false} href="/#skills">
               <li className="ml-10 text-sm uppercase hover:border-b">Skills</li>
             </Link>
-            <Link href="/#projects" scroll={false}>
+            <Link scroll={false} href="/#projects">
               <li className="ml-10 text-sm uppercase hover:border-b">
                 Projects
               </li>
             </Link>
-            <Link href="/#contact" scroll={false}>
+            <Link scroll={false} href="/#contact">
               <li className="ml-10 text-sm uppercase hover:border-b">
                 Contact
               </li>
@@ -94,11 +94,13 @@ function NavBar() {
           </div>
           <div className="py-4 flex flex-col">
             <ul className="uppercase">
-              <Link href="/">
+              <Link href="/#home" scroll={false}>
                 <li className="py-4 text-sm">Home</li>
               </Link>
               <Link href="/#about" scroll={false}>
-                <li className="py-4 text-sm">About</li>
+                <li onClick={() => setNav(false)} className="py-4 text-sm">
+                  About
+                </li>
               </Link>
               <Link href="/#skills" scroll={false}>
                 <li className="py-4 text-sm">Skills</li>
