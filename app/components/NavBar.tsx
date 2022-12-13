@@ -47,18 +47,18 @@ function NavBar() {
             <Link href="/">
               <li className="ml-10 text-sm uppercase hover:border-b">Home</li>
             </Link>
-            <Link href="/#about">
+            <Link href="/#about" scroll={false}>
               <li className="ml-10 text-sm uppercase hover:border-b">About</li>
             </Link>
-            <Link href="/#skills">
+            <Link href="/#skills" scroll={false}>
               <li className="ml-10 text-sm uppercase hover:border-b">Skills</li>
             </Link>
-            <Link href="/#projects">
+            <Link href="/#projects" scroll={false}>
               <li className="ml-10 text-sm uppercase hover:border-b">
                 Projects
               </li>
             </Link>
-            <Link href="/#contact">
+            <Link href="/#contact" scroll={false}>
               <li className="ml-10 text-sm uppercase hover:border-b">
                 Contact
               </li>
@@ -108,16 +108,16 @@ function NavBar() {
               <Link href="/">
                 <li className="py-4 text-sm">Home</li>
               </Link>
-              <Link href="/">
+              <Link href="/#about" scroll={false}>
                 <li className="py-4 text-sm">About</li>
               </Link>
-              <Link href="/">
+              <Link href="/#skills" scroll={false}>
                 <li className="py-4 text-sm">Skills</li>
               </Link>
-              <Link href="/">
+              <Link href="/#projects" scroll={false}>
                 <li className="py-4 text-sm">Projects</li>
               </Link>
-              <Link href="/">
+              <Link href="/#contact" scroll={false}>
                 <li className="py-4 text-sm">Contact</li>
               </Link>
             </ul>
