@@ -1,5 +1,6 @@
 "use client";
 import Image from "next/legacy/image";
+import fblogo from "../../public/images/fblogo.png";
 import Link from "next/link";
 import React, { useState, useEffect } from "react";
 import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from "react-icons/ai";
@@ -35,13 +36,7 @@ function NavBar() {
       }
     >
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
-        <Image
-          priority
-          src="/../public/images/FAlogo.jpg"
-          alt="logo"
-          width="125"
-          height="120"
-        />
+        <Image src={fblogo} alt="logo" width={105} height={100} />
         <div>
           <ul className="hidden md:flex">
             <Link href="/">
@@ -83,13 +78,7 @@ function NavBar() {
         >
           <div>
             <div className="flex w-full items-center justify-between">
-              <Image
-                priority
-                src="/../public/images/FAlogo.jpg"
-                alt="logo"
-                width="87"
-                height="80"
-              />
+              <Image priority src={fblogo} alt="logo" width="87" height="80" />
               <div
                 onClick={handleNav}
                 className="rounded-full shadow-md shadow-gray-400 p-3 cursor-pointer"
