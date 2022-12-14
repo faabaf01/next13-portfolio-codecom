@@ -1,15 +1,35 @@
 "use client";
 import Image from "next/legacy/image";
-import fblogo from "../../public/images/fblogo.png";
+import avatar from "../../public/images/avatar.png";
 import Link from "next/link";
 import React, { useState, useEffect } from "react";
 import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from "react-icons/ai";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { BsPersonLinesFill } from "react-icons/bs";
+import { usePathname } from "next/navigation";
 
 function NavBar() {
   const [nav, setNav] = useState(false);
   const [shadow, setShadow] = useState(false);
+  const [navBg, setNavBg] = useState("#e0fcff");
+  const [linkColor, setLinkColor] = useState("#1f2937");
+  const pathname = usePathname();
+
+  //run everytime pathname changes
+  useEffect(() => {
+    if (
+      pathname === "/property" ||
+      pathname === "/crypto" ||
+      pathname === "/netflix" ||
+      pathname === "/twitch"
+    ) {
+      setNavBg("transparent");
+      setLinkColor("#ecf0f3");
+    } else {
+      setNavBg("#e0fcff");
+      setLinkColor("#1f2937");
+    }
+  }, [pathname]);
 
   //called everytime close button is clicked, toggle true/false back and forth
   const handleNav = () => {
@@ -29,6 +49,7 @@ function NavBar() {
 
   return (
     <div
+      style={{ backgroundColor: `${navBg}` }}
       className={
         shadow
           ? "fixed w-full h-30 shadow-xl z-[100]"
@@ -36,24 +57,26 @@ function NavBar() {
       }
     >
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
-        <Image src={fblogo} alt="logo" width={105} height={100} />
+        <Link href="/">
+          <Image src={avatar} alt="logo" width={80} height={100} />
+        </Link>
         <div>
-          <ul className="hidden md:flex">
-            <Link scroll={false} href="/#home">
+          <ul style={{ color: `${linkColor}` }} className="hidden md:flex">
+            <Link scroll={false} href={"/#home"}>
               <li className="ml-10 text-sm uppercase hover:border-b">Home</li>
             </Link>
-            <Link scroll={false} href="/#about">
+            <Link scroll={false} href={"/#about"}>
               <li className="ml-10 text-sm uppercase hover:border-b">About</li>
             </Link>
-            <Link scroll={false} href="/#skills">
+            <Link scroll={false} href={"/#skills"}>
               <li className="ml-10 text-sm uppercase hover:border-b">Skills</li>
             </Link>
-            <Link scroll={false} href="/#projects">
+            <Link scroll={false} href={"/#projects"}>
               <li className="ml-10 text-sm uppercase hover:border-b">
                 Projects
               </li>
             </Link>
-            <Link scroll={false} href="/#contact">
+            <Link scroll={false} href={"/#contact"}>
               <li className="ml-10 text-sm uppercase hover:border-b">
                 Contact
               </li>
@@ -78,7 +101,15 @@ function NavBar() {
         >
           <div>
             <div className="flex w-full items-center justify-between">
-              <Image priority src={fblogo} alt="logo" width="87" height="80" />
+              <Link href={"/"}>
+                <Image
+                  priority
+                  src={avatar}
+                  alt="logo"
+                  width="87"
+                  height="80"
+                />
+              </Link>
               <div
                 onClick={handleNav}
                 className="rounded-full shadow-md shadow-gray-400 p-3 cursor-pointer"
@@ -94,8 +125,10 @@ function NavBar() {
           </div>
           <div className="py-4 flex flex-col">
             <ul className="uppercase">
-              <Link href="/#home" scroll={false}>
-                <li className="py-4 text-sm">Home</li>
+              <Link href="/" scroll={false}>
+                <li onClick={() => setNav(false)} className="py-4 text-sm">
+                  Home
+                </li>
               </Link>
               <Link href="/#about" scroll={false}>
                 <li onClick={() => setNav(false)} className="py-4 text-sm">
@@ -103,13 +136,19 @@ function NavBar() {
                 </li>
               </Link>
               <Link href="/#skills" scroll={false}>
-                <li className="py-4 text-sm">Skills</li>
+                <li onClick={() => setNav(false)} className="py-4 text-sm">
+                  Skills
+                </li>
               </Link>
               <Link href="/#projects" scroll={false}>
-                <li className="py-4 text-sm">Projects</li>
+                <li onClick={() => setNav(false)} className="py-4 text-sm">
+                  Projects
+                </li>
               </Link>
               <Link href="/#contact" scroll={false}>
-                <li className="py-4 text-sm">Contact</li>
+                <li onClick={() => setNav(false)} className="py-4 text-sm">
+                  Contact
+                </li>
               </Link>
             </ul>
 
