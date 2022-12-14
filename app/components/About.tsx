@@ -1,5 +1,6 @@
 import Image from "next/legacy/image";
 import React from "react";
+import aboutImg from "../../public/about/aboutImg.jpg";
 
 const About = () => {
   return (
@@ -28,12 +29,7 @@ const About = () => {
           </p>
         </div>
         <div className="w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300">
-          <Image
-            src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1472&q=80"
-            alt="/"
-            height={426}
-            width={640}
-          />
+          <Image src={aboutImg} alt="about" height={426} width={640} />
         </div>
       </div>
     </div>
