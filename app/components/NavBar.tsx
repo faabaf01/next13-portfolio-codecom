@@ -11,7 +11,7 @@ import { usePathname } from "next/navigation";
 function NavBar() {
   const [nav, setNav] = useState(false);
   const [shadow, setShadow] = useState(false);
-  const [navBg, setNavBg] = useState("#e0fcff");
+  const [navBg, setNavBg] = useState("#fae9f8");
   const [linkColor, setLinkColor] = useState("#1f2937");
   const pathname = usePathname();
 
@@ -26,7 +26,7 @@ function NavBar() {
       setNavBg("transparent");
       setLinkColor("#ecf0f3");
     } else {
-      setNavBg("#e0fcff");
+      setNavBg("#fae9f8");
       setLinkColor("#1f2937");
     }
   }, [pathname]);
