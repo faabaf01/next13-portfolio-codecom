@@ -11,7 +11,7 @@ import { usePathname } from "next/navigation";
 function NavBar() {
   const [nav, setNav] = useState(false);
   const [shadow, setShadow] = useState(false);
-  const [navBg, setNavBg] = useState("#fae9f8");
+  const [navBg, setNavBg] = useState("#ffffff");
   const [linkColor, setLinkColor] = useState("#1f2937");
   const pathname = usePathname();
 
@@ -26,7 +26,7 @@ function NavBar() {
       setNavBg("transparent");
       setLinkColor("#ecf0f3");
     } else {
-      setNavBg("#fae9f8");
+      setNavBg("#ffffff");
       setLinkColor("#1f2937");
     }
   }, [pathname]);
@@ -58,7 +58,7 @@ function NavBar() {
     >
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
         <Link href="/">
-          <Image src={avatar} alt="logo" width={80} height={100} />
+          <Image src={avatar} alt="logo" width={100} height={100} />
         </Link>
         <div>
           <ul style={{ color: `${linkColor}` }} className="hidden md:flex">
@@ -87,6 +87,7 @@ function NavBar() {
           </div>
         </div>
       </div>
+
       <div
         className={
           nav ? "md:hidden fixed left-0 top-0 w-full h-screen bg-black/50" : ""
@@ -95,7 +96,7 @@ function NavBar() {
         <div
           className={
             nav
-              ? "fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#ecf0f3] p-10 ease-in duration-500"
+              ? "fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#8ae4ff] p-10 ease-in duration-500"
               : "fixed left-[-100%] top-0 p-10 ease-in duration-500"
           }
         >
