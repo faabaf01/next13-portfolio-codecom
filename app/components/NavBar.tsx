@@ -90,13 +90,13 @@ function NavBar() {
 
       <div
         className={
-          nav ? "md:hidden fixed left-0 top-0 w-full h-screen bg-black/50" : ""
+          nav ? "md:hidden fixed left-0 top-0 w-full h-screen bg-black/70" : ""
         }
       >
         <div
           className={
             nav
-              ? "fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#8ae4ff] p-10 ease-in duration-500"
+              ? "fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#ffffff] p-10 ease-in duration-500"
               : "fixed left-[-100%] top-0 p-10 ease-in duration-500"
           }
         >
@@ -107,8 +107,8 @@ function NavBar() {
                   priority
                   src={avatar}
                   alt="logo"
-                  width="87"
-                  height="80"
+                  width="100"
+                  height="100"
                 />
               </Link>
               <div
@@ -119,7 +119,7 @@ function NavBar() {
               </div>
             </div>
             <div className="border-b border-gray-300 my-4">
-              <p className="w-[85%] md:w-[90%] py-4">
+              <p className="w-[85%] md:w-[90%] py-4 text-[#508991]">
                 Let&apos;s build something legendary together
               </p>
             </div>
@@ -154,7 +154,7 @@ function NavBar() {
             </ul>
 
             <div className="pt-40">
-              <p className="uppercase tracking-widest text-[#5651e5]">
+              <p className="uppercase tracking-widest text-[#508991]">
                 Let&apos;s Connect
               </p>
               <div className="flex items-center justify-between my-4 w-full sm:w-[80%]">

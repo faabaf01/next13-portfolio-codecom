@@ -13,7 +13,7 @@ export default function CryptoPage() {
   return (
     <div className="w-full">
       <div className="w-screen h-[30vh] lg:h-[40vh] relative">
-        <div className="absolute top-0 left-0 w-full h-[30vh] lg:h-[40vh] bg-black/80 z-10" />
+        <div className="absolute top-0 left-0 w-full h-[30vh] lg:h-[40vh] bg-black/60 z-10" />
         <Image
           className="absolute z-1"
           layout="fill"
@@ -76,7 +76,7 @@ export default function CryptoPage() {
           </div>
         </div>
         <Link href="/#projects">
-          <p className="underline cursor-pointer">Back</p>
+          <button className="cursor-pointer pl-6 pr-8">&lt; Back</button>
         </Link>
       </div>
     </div>
