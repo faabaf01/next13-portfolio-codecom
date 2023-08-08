@@ -10,7 +10,7 @@ const Main = () => {
       <div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center">
         <div>
           <p className="uppercase text-sm tracking-widest text-[#508991]">
-            LET&apos;S BUILD SOMETHING TOGETHER{" "}
+            LET&apos;S BUILD SOMETHING TOGETHER
           </p>
           <h1 className="py-4 text-gray-700">
             Hi, I&apos;m <span className="text-[#74b3ce]">Farah</span>

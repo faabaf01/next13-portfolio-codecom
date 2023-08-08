@@ -19,7 +19,7 @@ function NavBar() {
   useEffect(() => {
     if (
       pathname === "/property" ||
-      pathname === "/crypto" ||
+      pathname === "/linkedin" ||
       pathname === "/netflix" ||
       pathname === "/twitch"
     ) {
@@ -62,21 +62,21 @@ function NavBar() {
         </Link>
         <div>
           <ul style={{ color: `${linkColor}` }} className="hidden md:flex">
-            <Link scroll={false} href={"/#home"}>
+            <Link href="/#home" scroll={false}>
               <li className="ml-10 text-sm uppercase hover:border-b">Home</li>
             </Link>
-            <Link scroll={false} href={"/#about"}>
+            <Link href="/#about" scroll={false}>
               <li className="ml-10 text-sm uppercase hover:border-b">About</li>
             </Link>
-            <Link scroll={false} href={"/#skills"}>
+            <Link href="/#skills" scroll={false}>
               <li className="ml-10 text-sm uppercase hover:border-b">Skills</li>
             </Link>
-            <Link scroll={false} href={"/#projects"}>
+            <Link href="/#projects" scroll={false}>
               <li className="ml-10 text-sm uppercase hover:border-b">
                 Projects
               </li>
             </Link>
-            <Link scroll={false} href={"/#contact"}>
+            <Link href="/#contact" scroll={false}>
               <li className="ml-10 text-sm uppercase hover:border-b">
                 Contact
               </li>

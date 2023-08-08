@@ -1,6 +1,6 @@
 import Image from "next/legacy/image";
 import React from "react";
-import cryptoImg from "../../public/projects/crypto.jpg";
+import linkedinImg from "../../public/projects/linkedin.jpg";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
 
@@ -9,7 +9,7 @@ import Link from "next/link";
 //what you learnt in that project
 //any obstacles you had to overcome (programming wise)
 
-export default function CryptoPage() {
+export default function LinkedinPage() {
   return (
     <div className="w-full">
       <div className="w-screen h-[30vh] lg:h-[40vh] relative">
@@ -18,11 +18,11 @@ export default function CryptoPage() {
           className="absolute z-1"
           layout="fill"
           objectFit="cover"
-          src={cryptoImg}
+          src={linkedinImg}
           alt="/"
         />
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
-          <h2 className="py-2">Crypto App</h2>
+          <h2 className="py-2">LinkedIn</h2>
           <h3>React JS / Tailwind / Firebase</h3>
         </div>
       </div>
@@ -41,8 +41,12 @@ export default function CryptoPage() {
             account with an email address in order to save your favorite
             properties. This is made possible with Zillow API.
           </p>
-          <button className="px-8 py-2 mt-4 mr-8">Demo</button>
-          <button className="px-8 py-2 mt-4">Code</button>
+          <Link href={"https://linkedin-clone-2db41.web.app/"}>
+            <button className="px-8 py-2 mt-4 mr-8">Demo</button>
+          </Link>
+          <Link href={"https://github.com/faabaf01?tab=repositories"}>
+            <button className="px-8 py-2 mt-4">Code</button>
+          </Link>
         </div>
         <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4">
           <div className="p-2">

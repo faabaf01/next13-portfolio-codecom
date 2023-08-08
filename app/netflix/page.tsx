@@ -41,7 +41,7 @@ export default function NetflixPage() {
             account with an email address in order to save your favorite
             properties. This is made possible with Zillow API.
           </p>
-          <Link href={"https://next13-netflix-clone.vercel.app/"}>
+          <Link href={"https://netflixy-reactjs.vercel.app"}>
             <button className="px-8 py-2 mt-4 mr-8">Demo</button>
           </Link>
           <Link href={"https://github.com/faabaf01?tab=repositories"}>

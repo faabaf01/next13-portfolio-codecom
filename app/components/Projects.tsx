@@ -1,8 +1,8 @@
-import Image from "next/legacy/image";
-import Link from "next/link";
+// import Image from "next/legacy/image";
+// import Link from "next/link";
 import React from "react";
 import propertyImg from "../../public/projects/property.jpg";
-import cryptoImg from "../../public/projects/crypto.jpg";
+import linkedinImg from "../../public/projects/linkedin.jpg";
 import netflixImg from "../../public/projects/netflix.jpg";
 import twitchImg from "../../public/projects/twitch.jpg";
 import ProjectItem from "./ProjectItem";
@@ -22,9 +22,9 @@ const Projects = () => {
             projectUrl="/property"
           />
           <ProjectItem
-            title="Crypto App"
-            backgroundImg={cryptoImg}
-            projectUrl="/crypto"
+            title="LinkedIn"
+            backgroundImg={linkedinImg}
+            projectUrl="/linkedin"
           />
           <ProjectItem
             title="Netflix"
