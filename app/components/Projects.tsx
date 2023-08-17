@@ -1,7 +1,7 @@
 // import Image from "next/legacy/image";
 // import Link from "next/link";
 import React from "react";
-import propertyImg from "../../public/projects/property.jpg";
+import pokemonImg from "../../public/projects/pokemon.jpg";
 import linkedinImg from "../../public/projects/linkedin.jpg";
 import netflixImg from "../../public/projects/netflix.jpg";
 import twitchImg from "../../public/projects/twitch.jpg";
@@ -17,9 +17,9 @@ const Projects = () => {
         <h2 className="py-4">What I&apos;ve Built</h2>
         <div className="grid md:grid-cols-2 gap-8">
           <ProjectItem
-            title="Property Finder"
-            backgroundImg={propertyImg}
-            projectUrl="/property"
+            title="Pokemon Finder"
+            backgroundImg={pokemonImg}
+            projectUrl="/pokemon"
           />
           <ProjectItem
             title="LinkedIn"

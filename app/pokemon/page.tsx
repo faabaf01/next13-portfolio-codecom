@@ -1,6 +1,6 @@
 import Image from "next/legacy/image";
 import React from "react";
-import propertyImg from "../../public/projects/property.jpg";
+import pokemonImg from "../../public/projects/pokemon.jpg";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
 
@@ -9,7 +9,7 @@ import Link from "next/link";
 //what you learnt in that project
 //any obstacles you had to overcome (programming wise)
 
-export default function PropertyPage() {
+export default function PokemonPage() {
   return (
     <div className="w-full">
       <div className="w-screen h-[30vh] lg:h-[40vh] relative">
@@ -18,12 +18,12 @@ export default function PropertyPage() {
           className="absolute z-1"
           layout="fill"
           objectFit="cover"
-          src={propertyImg}
+          src={pokemonImg}
           alt="/"
         />
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
-          <h2 className="py-2">Property Finder</h2>
-          <h3>React JS / Tailwind / Firebase</h3>
+          <h2 className="py-2">Pokemon Finder</h2>
+          <h3>NextJS / GraphQL / TypeScript / ChakraUI / Vercel</h3>
         </div>
       </div>
 
@@ -32,17 +32,22 @@ export default function PropertyPage() {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            This app was built using React JS and is hosted on Firebase. Users
-            are able to search properties based on an Address, City, or ZIP code
-            to retrieve a list of active properties currently for sale. You will
-            be able to view property information as well as the specific
-            location of the property integrated with the Google Maps API. User
-            authentication is available so you can signup and signin to your
-            account with an email address in order to save your favorite
-            properties. This is made possible with Zillow API.
+            This app was built using NextJS using getServerSideProps concept and
+            is hosted on Vercel. Users are able to find information on pokemons
+            based on their name to retrieve list of the pokemon type and moves.
+            More features such as search bar, pokemon gallery and homepage will
+            be added soon or are under development.
           </p>
-          <button className="px-8 py-2 mt-4 mr-8">Demo</button>
-          <button className="px-8 py-2 mt-4">Code</button>
+          <Link href={"https://nextjs-pokemon-9tcnz8br2-farah415.vercel.app"}>
+            <button className="px-8 py-2 mt-4 mr-8">Demo</button>
+          </Link>
+          <Link
+            href={
+              "https://github.com/faabaf01/nextjs-pokemon-getserversideprops"
+            }
+          >
+            <button className="px-8 py-2 mt-4">Code</button>
+          </Link>
         </div>
         <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4">
           <div className="p-2">
@@ -50,11 +55,11 @@ export default function PropertyPage() {
             <div className="grid grid-cols-3 md:grid-cols-1">
               <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" />
-                React
+                NextJS
               </p>
               <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" />
-                Tailwind
+                ChakraUI
               </p>
               <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" />
@@ -62,15 +67,15 @@ export default function PropertyPage() {
               </p>
               <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" />
-                Firebase
+                Vercel
               </p>
               <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" />
-                Google API
+                TypeScript
               </p>
               <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" />
-                Zillow API
+                GraphQL
               </p>
             </div>
           </div>
