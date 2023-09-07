@@ -22,11 +22,10 @@ const Main = () => {
             I recently graduted in 2022 from University Malaya with
             <strong> Bachelor of Science in Bioinformatics</strong> - a field of
             study that involves using computer science and information
-            technology to process biological data. After graduating, I developed
-            interests in programming and decided to become a front-end web
-            developer. Currently, I am focused on learning and building a
+            technology to process biological data.
+            {/* Currently, I am focused on learning and building a
             responsive front-end web applications while integrating back-end
-            technologies to my projects.
+            technologies to my projects. */}
           </p>
           <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
             <div className="rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300">
