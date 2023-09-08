@@ -10,7 +10,7 @@ const Main = () => {
       <div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center">
         <div>
           <p className="uppercase text-sm tracking-widest text-[#508991]">
-            LET&apos;S BUILD SOMETHING TOGETHER
+            A LITTLE BIT ABOUT ME
           </p>
           <h1 className="py-4 text-gray-700">
             Hi, I&apos;m <span className="text-[#74b3ce]">Farah</span>
@@ -19,10 +19,19 @@ const Main = () => {
             A Self-taught Frontend Web Developer
           </h1>
           <p className="py-4 text-gray-600 max-w-[70%] m-auto">
-            I recently graduted in 2022 from University Malaya with
-            <strong> Bachelor of Science in Bioinformatics</strong> - a field of
-            study that involves using computer science and information
-            technology to process biological data.
+            Graduted in 2022 from University Malaya with a Bachelor of Science
+            in <u>Bioinformatics</u> - a field of study that involves using
+            computer science and information technology to process biological
+            data. Interested about creating user-friendly websites using
+            JavaScript and React. Currently enrolled in UX Design course as part
+            of the 2023 K-Youth Development Program with Excelerate Asia. Eager
+            to embark on a new journey in learning and expanding skills in areas
+            like user research, wireframing, and prototyping.
+            <br />
+            <strong>
+              Actively seeking an internship opportunity as a UX Designer
+            </strong>
+            .
             {/* Currently, I am focused on learning and building a
             responsive front-end web applications while integrating back-end
             technologies to my projects. */}

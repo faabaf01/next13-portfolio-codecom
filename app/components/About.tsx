@@ -11,7 +11,13 @@ const About = () => {
             About
           </p>
           <h2 className="py-4">Who I Am</h2>
-          <p className="py-2 text-gray-600">Not your normal developer</p>
+          <p className="py-2 text-gray-600">
+            <i>
+              “Develop a passion for learning. If you do, you will never cease
+              to grow.”
+            </i>
+            – Anthony J. D&apos;Angelo
+          </p>
           <p className="py-2 text-gray-600">
             Right after I graduated, I developed an interest in programming and
             aspired to become a frontend web developer. I began my journey by
@@ -21,15 +27,16 @@ const About = () => {
             projects into my Github.
           </p>
           <p className="py-2 text-gray-600">
-            However, I soon realized that the path become a web developer was
-            challenging and I require more experience in this field. Undeterred,
-            I decided to explore a different area within the IT field. Guess
-            what - I enrolled myself into a <strong>UX Design bootcamp</strong>!
-            Which means, I will be learning new skills to become a
-            <strong>UX Designer</strong>, a field that is also interesting for
-            me since I love designing things. Currently, I am actively seeking
-            internship opportunity to secure my first job. I aspire to have
-            career in the IT field.
+            However, I soon realized that the path to become a web developer was
+            challenging and I require more experiences in this field.
+            Undeterred, I decided to explore a different area within the IT
+            field. Guess what - I enrolled myself into a{" "}
+            <strong>UX Design bootcamp</strong>! Which means, I will be learning
+            new skills to become a <strong>UX Designer</strong>, a field that is
+            also interesting for me since I often found myself drawn to the
+            design aspects of web development and the impact it has on user
+            satisfaction. Currently, I am actively seeking internship
+            opportunity as a UX Designer.
           </p>
           <p className="py-2 text-[#077C82] underline cursor-pointer">
             Check out some of my latest projects.
