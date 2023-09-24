@@ -56,7 +56,7 @@ function NavBar() {
           : "fixed w-full h-30 z-[100]"
       }
     >
-      <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
+      <div className=" flex justify-between items-center w-full h-full px-2 2xl:px-16">
         <Link href="/">
           <Image src={avatar} alt="logo" width={100} height={100} />
         </Link>
