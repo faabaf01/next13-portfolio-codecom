@@ -3,25 +3,56 @@ import Image from "next/legacy/image";
 import React, { useState } from "react";
 import { BsChevronCompactLeft, BsChevronCompactRight } from "react-icons/bs";
 // import { RxDotFilled } from "react-icons/rx";
-import ShopeeFront from "../../public/heuristic/ShopeeFront.png";
-import Shopee from "../../public/heuristic/Shopee.png";
+import ShopeeStart from "../../public/heuristic/slides-shopee/ShopeeStart.jpg";
+import Shopee1 from "../../public/heuristic/slides-shopee/Shopee1.jpg";
+import Shopee2 from "../../public/heuristic/slides-shopee/Shopee2.jpg";
+import Shopee3 from "../../public/heuristic/slides-shopee/Shopee3.jpg";
+import Shopee4 from "../../public/heuristic/slides-shopee/Shopee4.jpg";
+import Shopee5 from "../../public/heuristic/slides-shopee/Shopee5.jpg";
+import Shopee6 from "../../public/heuristic/slides-shopee/Shopee6.jpg";
+import Shopee7 from "../../public/heuristic/slides-shopee/Shopee7.jpg";
+import Shopee8 from "../../public/heuristic/slides-shopee/Shopee8.jpg";
+import Shopee9 from "../../public/heuristic/slides-shopee/Shopee9.jpg";
+import Shopee10 from "../../public/heuristic/slides-shopee/Shopee10.jpg";
+import ShopeeEnd from "../../public/heuristic/slides-shopee/ShopeeEnd.jpg";
 
 const Slider = () => {
   const slides = [
     {
-      url: ShopeeFront.src,
+      url: ShopeeStart.src,
     },
     {
-      url: Shopee.src,
+      url: Shopee1.src,
     },
     {
-      url: "https://images.unsplash.com/photo-1638964758061-117853a20865?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2075&q=80",
+      url: Shopee2.src,
     },
     {
-      url: "https://images.unsplash.com/photo-1616196334218-caffdc9b2317?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80",
+      url: Shopee3.src,
     },
     {
-      url: "https://images.unsplash.com/photo-1640271443625-3276ed8f62b5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80",
+      url: Shopee4.src,
+    },
+    {
+      url: Shopee5.src,
+    },
+    {
+      url: Shopee6.src,
+    },
+    {
+      url: Shopee7.src,
+    },
+    {
+      url: Shopee8.src,
+    },
+    {
+      url: Shopee9.src,
+    },
+    {
+      url: Shopee10.src,
+    },
+    {
+      url: ShopeeEnd.src,
     },
   ];
 
