@@ -44,10 +44,12 @@ const HeuristicPage = () => {
             <div className="grid grid-cols-3 md:grid-cols-1"></div>
           </div>
         </div> */}
+        <Link href="/">
+          <button className="cursor-pointer pl-6 pr-8 py-3 mb-20">
+            Go back
+          </button>
+        </Link>
       </div>
-      <Link href="/">
-        <button className="cursor-pointer pl-6 pr-8 py-3">Go back</button>
-      </Link>
     </div>
   );
 };
