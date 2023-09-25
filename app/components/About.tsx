@@ -1,4 +1,5 @@
 import Image from "next/legacy/image";
+import Link from "next/link";
 import React from "react";
 import aboutImg from "../../public/about/aboutImg.jpg";
 
@@ -39,7 +40,9 @@ const About = () => {
             opportunity as a UX Designer.
           </p>
           <p className="py-2 text-[#077C82] underline cursor-pointer">
-            Check out some of my latest projects.
+            <Link href={"https://github.com/faabaf01"}>
+              Check out some of my latest projects.
+            </Link>
           </p>
         </div>
         <div className="w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300">
