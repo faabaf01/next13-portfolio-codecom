@@ -39,7 +39,9 @@ const Main = () => {
           </p>
 
           <Link href="/heuristic">
-            <button className="cursor-pointer pl-6 pr-8">See portfolio</button>
+            <button className="cursor-pointer pl-6 pr-8 py-3">
+              See UX Design portfolio
+            </button>
           </Link>
 
           <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
