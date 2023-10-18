@@ -20,8 +20,9 @@ const HeuristicPage = () => {
       <div className="max-w-[1040px] mx-auto p-2 grid md:grid-cols-3 gap-8 pt-8">
         <div className="col-span-4">
           <p>Project</p>
-          <h2>Heuristic Evaluation</h2>
-          <p className="mb-[50px] leading-loose">
+          <h2 className="">Heuristic Evaluation</h2>
+
+          <p className="mb-[50px] text-[#000000]">
             This is a Mini Case Study of an app that I commonly use. I chose the
             app <strong>Shopee</strong> - the popular e-commerce platform in
             South East Asia. The platform provides customers with an easy,

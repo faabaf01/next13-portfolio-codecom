@@ -10,36 +10,37 @@ const Main = () => {
     <div id="home" className="w-full h-screen text-center">
       <div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center">
         <div>
-          <p className="uppercase mt-16 text-sm tracking-widest text-[#508991]">
+          <p className="uppercase mt-16 text-sm tracking-widest text-[#4088d1]">
             A LITTLE BIT ABOUT ME
           </p>
           <h1 className="py-4 text-gray-700">
-            Hi, I&apos;m <span className="text-[#74b3ce]">Farah</span>
+            Hi, I&apos;m <span className="text-[#4088d1]">Farah</span>
           </h1>
           <h1 className="py-2 text-gray-700">
             Aspiring User Experience Designer
           </h1>
-          <p className="py-4 text-gray-600 max-w-[70%] m-auto">
-            Graduted in 2022 from University Malaya with a Bachelor of Science
-            in <strong>Bioinformatics</strong> - a study that involves computer
-            science and information technology to process biological data. Was a
-            self-taught Frontend Developer. Interested in creating user-friendly
-            websites using JavaScript and React. Currently enrolled in UX Design
-            course as part of the 2023 K-Youth Development Program with
-            Excelerate Asia. Eager to expand my skills in areas like user
-            research, wireframing, and prototyping.
-            <br />
+          <p className="mt-5">
             <strong>
-              Actively seeking an internship opportunity as a UX Designer
+              Actively seeking a full-time position as a UX Designer and
+              available to start on 23 December 2023.
             </strong>
-            .
             {/* Currently, I am focused on learning and building a
             responsive front-end web applications while integrating back-end
             technologies to my projects. */}
           </p>
+          <p className="py-4 text-gray-600 max-w-[70%] m-auto">
+            Graduated in 2022 from University Malaya with a Bachelor of Science
+            in <strong>Bioinformatics</strong> - a study that involves computer
+            science and information technology to process biological data. Was a
+            self-taught Frontend Developer, starting a career as a UX Designer.
+            Passionate about user research, wireframing and prototyping.
+            Completed UX Design course as part of the 2023 K-Youth Development
+            Program with Excelerate Asia. Currently working as an intern at
+            Edvolution Enterprise.
+          </p>
 
           <Link href="/heuristic">
-            <button className="cursor-pointer pl-6 pr-8 py-3">
+            <button className="cursor-pointer pl-6 pr-8 py-3 mb-8">
               See UX Design portfolio
             </button>
           </Link>

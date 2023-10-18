@@ -1,14 +1,29 @@
 import Image from "next/legacy/image";
 import Link from "next/link";
 import React from "react";
+import { motion } from "framer-motion";
+import { useForm } from "react-hook-form";
 import { AiOutlineMail } from "react-icons/ai";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { HiOutlineChevronDoubleUp } from "react-icons/hi";
 
 const Contact = () => {
+  // const {
+  //   register,
+  //   trigger,
+  //   formState: { errors },
+  // } = useForm();
+
+  // const onSubmit = async (e) => {
+  //   const isValid = await trigger();
+  //   if (!isValid) {
+  //     e.preventDefault();
+  //   }
+  // };
+
   return (
-    <div id="contact" className="w-full lg:h-screen">
+    <section id="contact" className="w-full lg:h-screen">
       <div className="max-w-[1240px] m-auto px-2 py-16 w-full">
         <p className="text-xl tracking-widest uppercase text-[#077C82]">
           Contact
@@ -29,10 +44,10 @@ const Contact = () => {
               </div>
               <div>
                 <h2 className="py-2">Farah</h2>
-                <p>Self-taught Frontend Web Developer</p>
+                <p>Aspiring UX Designer</p>
                 <p className="py-4">
-                  I am available for internship or full-time positions as a UX
-                  Designer. Contact me and let&apos;s talk.
+                  I am available for a full-time position as a UX Designer.
+                  Contact me and let&apos;s talk.
                 </p>
               </div>
               <div>
@@ -113,7 +128,7 @@ const Contact = () => {
           </Link>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

@@ -10,9 +10,9 @@ interface Props {
 
 const ProjectItem = ({ title, backgroundImg, projectUrl }: Props) => {
   return (
-    <div className="relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-400 rounded-xl group hover:bg-gradient-to-r from-[#077C82] to-[#78D4E1]">
+    <div className="relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-400 rounded-xl group hover:bg-gradient-to-r from-[#000000] to-[#4088d1]">
       <Image
-        className="rounded-xl group-hover:opacity-10"
+        className="rounded-xl group-hover:opacity-20"
         src={backgroundImg}
         alt="bgimg"
       />
