@@ -17,12 +17,12 @@ const HeuristicPage = () => {
         </div>
       </div>
 
-      <div className="max-w-[1040px] mx-auto p-2 grid md:grid-cols-3 gap-8 pt-8">
+      <div className="max-w-[1000px] mx-auto grid md:grid-cols-3 pt-8 mb-40">
         <div className="col-span-4">
           <p>Project</p>
-          <h2 className="">Heuristic Evaluation</h2>
+          <h2>Heuristic Evaluation</h2>
 
-          <p className="mb-[50px] text-[#000000]">
+          <p className="py-4 text-gray-600">
             This is a Mini Case Study of an app that I commonly use. I chose the
             app <strong>Shopee</strong> - the popular e-commerce platform in
             South East Asia. The platform provides customers with an easy,
@@ -30,26 +30,26 @@ const HeuristicPage = () => {
             and fulfillment support. Let&apos;s go through Jakob Nielsen&apos;s
             10 general principles for interaction design.
           </p>
-          <Slider />
-        </div>
 
-        {/* <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4">
+          <Slider />
+
+          {/* <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4">
           <div className="p-2">
-            <p className="text-center font-bold pb-2">Technologies</p>
-            <div className="grid grid-cols-3 md:grid-cols-1">
-              <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" />
-                Figma
-              </p>
-            </div>
-            <div className="grid grid-cols-3 md:grid-cols-1"></div>
+          <p className="text-center font-bold pb-2">Technologies</p>
+          <div className="grid grid-cols-3 md:grid-cols-1">
+          <p className="text-gray-600 py-2 flex items-center">
+          <RiRadioButtonFill className="pr-1" />
+          Figma
+          </p>
           </div>
-        </div> */}
-        <Link href="/">
-          <button className="cursor-pointer pl-6 pr-8 py-3 mb-20">
-            Go back
-          </button>
-        </Link>
+          <div className="grid grid-cols-3 md:grid-cols-1"></div>
+          </div>
+          </div> */}
+
+          <Link href="/">
+            <button className="cursor-pointer mt-10 p-16 py-3">Go back</button>
+          </Link>
+        </div>
       </div>
     </div>
   );

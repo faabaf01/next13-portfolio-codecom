@@ -2,7 +2,7 @@
 import Image from "next/legacy/image";
 import React, { useState } from "react";
 import { BsChevronCompactLeft, BsChevronCompactRight } from "react-icons/bs";
-// import { RxDotFilled } from "react-icons/rx";
+import { RiStopMiniFill } from "react-icons/ri";
 import ShopeeStart from "../../public/heuristic/slides-shopee/ShopeeStart.jpg";
 import Shopee1 from "../../public/heuristic/slides-shopee/Shopee1.jpg";
 import Shopee2 from "../../public/heuristic/slides-shopee/Shopee2.jpg";
@@ -75,10 +75,10 @@ const Slider = () => {
   };
 
   return (
-    <div className="max-w-[1000px] h-[600px] w-full m-auto pb-10 px-4 group">
+    <div className="max-w-[1000px] h-[600px] m-auto pb-10 px-4 group">
       <div
         style={{ backgroundImage: `url(${slides[currentIndex].url})` }}
-        className="w-full h-full rounded-2xl bg-center bg-cover duration-500"
+        className="w-full h-full rounded-2xl bg-center bg-cover duration-300"
       >
         {/* Left Arrow */}
         <div className="absolute top-[80%] -translate-x-0 translate-y-[50%] left-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer">
@@ -90,14 +90,14 @@ const Slider = () => {
         </div>
       </div>
 
-      <div className="flex top-4 py-2">
+      <div className="flex top-4 py-2 justify-center">
         {slides.map((slide, slideIndex) => (
           <div
             key={slideIndex}
             onClick={() => goToSlide(slideIndex)}
-            className="text-2xl cursor-pointer"
+            className="text-xl cursor-pointer"
           >
-            {/* <RxDotFilled /> */}
+            <RiStopMiniFill />
           </div>
         ))}
       </div>

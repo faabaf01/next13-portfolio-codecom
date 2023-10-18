@@ -25,7 +25,7 @@ const Contact = () => {
   return (
     <section id="contact" className="w-full lg:h-screen">
       <div className="max-w-[1240px] m-auto px-2 py-16 w-full">
-        <p className="text-xl tracking-widest uppercase text-[#077C82]">
+        <p className="text-xl tracking-widest uppercase text-[#4088d1]">
           Contact
         </p>
         <h2 className="py-4">Get In Touch</h2>
@@ -43,15 +43,15 @@ const Contact = () => {
                 />
               </div>
               <div>
-                <h2 className="py-2">Farah</h2>
+                <h2 className="pt-2">Farah</h2>
                 <p>Aspiring UX Designer</p>
-                <p className="py-4">
+                <p className="py-4 text-gray-600">
                   I am available for a full-time position as a UX Designer.
-                  Contact me and let&apos;s talk.
+                  Contact me and let&apos;s talk!
                 </p>
               </div>
               <div>
-                <p className="uppercase pt-8 text-[#077C82]">Connect with me</p>
+                <p className="uppercase pt-8 text-[#4088d1]">Connect with me</p>
                 <div className="flex items-center justify-between py-4">
                   <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                     <FaLinkedinIn />
@@ -121,9 +121,9 @@ const Contact = () => {
           </div>
         </div>
         <div className="flex justify-center py-12">
-          <Link href={"/"}>
+          <Link href="/">
             <div className="rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300">
-              <HiOutlineChevronDoubleUp className="text-[#508991]" size={30} />
+              <HiOutlineChevronDoubleUp className="text-[#4088d1]" size={30} />
             </div>
           </Link>
         </div>

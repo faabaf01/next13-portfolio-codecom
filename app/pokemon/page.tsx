@@ -38,17 +38,19 @@ export default function PokemonPage() {
             More features such as search bar, pokemon gallery and homepage will
             be added soon or are under development.
           </p>
+
           <Link href={"https://nextjs-pokemon-9tcnz8br2-farah415.vercel.app"}>
-            <button className="px-8 py-2 mt-4 mr-8">Demo</button>
+            <button className="px-8 py-2 mt-4 mr-8 bg-pink-300 ">Demo</button>
           </Link>
           <Link
             href={
               "https://github.com/faabaf01/nextjs-pokemon-getserversideprops"
             }
           >
-            <button className="px-8 py-2 mt-4">Code</button>
+            <button className="px-8 py-2 mt-4 bg-pink-300">Code</button>
           </Link>
         </div>
+
         <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4">
           <div className="p-2">
             <p className="text-center font-bold pb-2">Technologies</p>
@@ -81,7 +83,7 @@ export default function PokemonPage() {
           </div>
         </div>
         <Link href="/#projects">
-          <p className="underline cursor-pointer">Back</p>
+          <button className="cursor-pointer mt-10 p-16 py-3">Go back</button>
         </Link>
       </div>
     </div>
