@@ -5,16 +5,16 @@ import Slider from "../../components/Slider";
 function Heuristicpage() {
   return (
     <>
-      <div className="w-screen h-[30vh] lg:h-[40vh] relative">
+      <div className="w-screen h-[40vh] lg:h-[50vh] relative flex items-center justify-center">
         <div className="absolute top-0 left-0 w-full h-[30vh] lg:h-[40vh] bg-black/60 z-10"></div>
 
-        <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
+        <div className="absolute max-w-[1240px] w-full text-white z-10 p-2 text-center">
           <h2 className="py-2">Mini Case Study</h2>
-          <h3>UX Design</h3>
+          <h3 className="text-[#81c0ff]">UX Design</h3>
         </div>
       </div>
 
-      <div className="max-w-[1000px] mx-auto grid md:grid-cols-3 pt-8 mb-40">
+      <div className="max-w-[1000px] mx-auto grid md:grid-cols-3 p-8 mb-40">
         <div className="col-span-4 ">
           <p>Project</p>
           <h2>Heuristic Evaluation</h2>
