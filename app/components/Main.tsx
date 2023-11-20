@@ -39,7 +39,7 @@ const Main = () => {
             Edvolution Enterprise.
           </p>
 
-          <Link href="/heuristic">
+          <Link href="/uxdesign">
             <button className="cursor-pointer pl-6 pr-8 py-3 mb-8">
               See UX Design portfolio
             </button>

@@ -34,7 +34,7 @@ const About = () => {
             a <strong>UX Designer</strong>, is very interesting for me since I
             often found myself drawn to the design aspects of web development
             and the impact it has on user experience satisfaction when they
-            visit your website.
+            visit my website.
           </p>
           <p className="py-2 text-[#4088d1] underline cursor-pointer">
             <Link href={"https://github.com/faabaf01"}>
