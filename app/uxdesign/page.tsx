@@ -51,11 +51,16 @@ const HeuristicPage = () => {
                 />
               </div>
               <div className="w-1/2 px-14 pt-10 ">
-                <h2 className="text-2xl font-bold mb-4">2️⃣ Sketching</h2>
+                <h2 className="text-2xl font-bold mb-4">2️⃣ Sketches</h2>
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 </p>
+                <Link href="/uxdesign/sketches">
+                  <button className="cursor-pointer mt-10 p-16 py-3">
+                    See Sketches
+                  </button>
+                </Link>
               </div>
             </div>
             <div className="flex mb-8">
@@ -65,6 +70,11 @@ const HeuristicPage = () => {
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 </p>
+                <Link href="/uxdesign/wireframes">
+                  <button className="cursor-pointer mt-10 p-16 py-3">
+                    See Wireframes
+                  </button>
+                </Link>
               </div>
               <div className="w-1/2 pl-10">
                 <Image src={avatar} alt="Project 3" className="w-full h-auto" />

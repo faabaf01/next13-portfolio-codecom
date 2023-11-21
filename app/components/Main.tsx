@@ -1,11 +1,38 @@
+"use client";
 import Link from "next/link";
-import React from "react";
+import React, { useEffect } from "react";
 import { AiOutlineMail } from "react-icons/ai";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 
 //h-100vw = h-screen
 const Main = () => {
+  useEffect(() => {
+    const Typed = require("typed.js");
+    new Typed(".is-visible", {
+      strings: ["Aspiring UX Designer", "Aspiring Web Developer"],
+      // Optionally use an HTML element to grab strings from (must wrap each string in a <p>)
+      stringsElement: null,
+      // typing speed
+      typeSpeed: 30,
+      // time before typing starts
+      startDelay: 900,
+      // backspacing speed
+      backSpeed: 30,
+      // time before backspacing
+      backDelay: 500,
+      // loop
+      loop: true,
+      // false = infinite
+      // loopCount: 5,
+      // show cursor
+      showCursor: false,
+      // character for cursor
+      cursorChar: "|",
+      // attribute to type (null == text)
+      attr: null,
+    });
+  }, []);
   return (
     <div id="home" className="w-full h-auto text-center">
       <div className="max-w-[1240] w-full h-full mx-auto p-4 flex justify-center items-center">
@@ -16,9 +43,17 @@ const Main = () => {
           <h1 className="py-4 text-gray-700">
             Hi, I&apos;m <span className="text-[#4088d1]">Farah</span>
           </h1>
-          <h1 className="py-2 text-gray-700">
-            Aspiring User Experience Designer
-          </h1>
+          <div className="h-[50px]">
+            {/* - It is animation title. You can change animation variation by changing extra class to one of next classes: zoom, rotate-1, letters type, letters rotate-2, loading-bar, slide, clip, letters rotate-3, letters scale, push. cd-headline class can not be removed.  */}
+            <div className="my_self">
+              <h2 className="cd-headline clip text-gray-700">
+                <span className="cd-words-wrapper">
+                  <b className="is-visible"></b>
+                </span>
+              </h2>
+            </div>
+          </div>
+
           <p className="mt-5">
             <strong>
               Actively seeking a full-time position as a UX Designer and

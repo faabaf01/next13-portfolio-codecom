@@ -18,7 +18,7 @@ function NavBar() {
   //run everytime pathname changes
   useEffect(() => {
     if (
-      pathname === "/property" ||
+      pathname === "/pokemon" ||
       pathname === "/linkedin" ||
       pathname === "/netflix" ||
       pathname === "/twitch"
@@ -56,9 +56,15 @@ function NavBar() {
           : "fixed w-full h-30 z-[100]"
       }
     >
-      <div className=" flex justify-between items-center w-full h-full px-2 2xl:px-16">
+      <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
         <Link href="/">
-          <Image src={avatar} alt="logo" width={100} height={100} />
+          <Image
+            src={avatar}
+            alt="logo"
+            width={100}
+            height={100}
+            className="rounded-full"
+          />
         </Link>
         <div>
           <ul style={{ color: `${linkColor}` }} className="hidden md:flex">

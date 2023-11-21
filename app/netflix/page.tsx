@@ -4,16 +4,11 @@ import netflixImg from "../../public/projects/netflix.jpg";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
 
-//why you enjoy doing it
-//why you chose that project
-//what you learnt in that project
-//any obstacles you had to overcome (programming wise)
-
 export default function NetflixPage() {
   return (
     <div className="w-full">
-      <div className="w-screen h-[30vh] lg:h-[40vh] relative">
-        <div className="absolute top-0 left-0 w-full h-[30vh] lg:h-[40vh] bg-black/60 z-10" />
+      <div className="w-screen h-[40vh] lg:h-[40vh] relative">
+        <div className="absolute top-0 left-0 w-full h-[40vh] bg-black/40 z-10" />
         <Image
           className="absolute z-1"
           layout="fill"
@@ -21,13 +16,13 @@ export default function NetflixPage() {
           src={netflixImg}
           alt="/"
         />
-        <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
+        <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-5">
           <h2 className="py-2">Netflix UI</h2>
           <h3>React JS / Tailwind / Firebase</h3>
         </div>
       </div>
 
-      <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 pt-8">
+      <div className="max-w-[1240px] mx-auto p-5 grid md:grid-cols-5 gap-8 pt-8">
         <div className="col-span-4">
           <p>Project</p>
           <h2>Overview</h2>
@@ -42,10 +37,10 @@ export default function NetflixPage() {
             properties. This is made possible with Zillow API.
           </p>
           <Link href={"https://netflixy-reactjs.vercel.app"}>
-            <button className="px-8 py-2 mt-4 mr-8">Demo</button>
+            <button className="px-8 py-2 mt-4 mr-8 bg-pink-300">Demo</button>
           </Link>
           <Link href={"https://github.com/faabaf01?tab=repositories"}>
-            <button className="px-8 py-2 mt-4">Code</button>
+            <button className="px-8 py-2 mt-4 mr-8 bg-pink-300">Code</button>
           </Link>
         </div>
         <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4">
@@ -80,7 +75,7 @@ export default function NetflixPage() {
           </div>
         </div>
         <Link href="/#projects">
-          <p className="underline cursor-pointer">Back</p>
+          <button className="cursor-pointer mt-10 p-16 py-3">Go Home</button>
         </Link>
       </div>
     </div>
