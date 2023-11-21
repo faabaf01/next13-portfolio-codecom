@@ -57,7 +57,7 @@ const Main = () => {
           <p className="mt-5">
             <strong>
               Actively seeking a full-time position as a UX Designer and
-              available to start on 23 December 2023.
+              available to start on 1st January 2024.
             </strong>
             {/* Currently, I am focused on learning and building a
             responsive front-end web applications while integrating back-end
