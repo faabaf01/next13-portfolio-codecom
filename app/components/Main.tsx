@@ -7,10 +7,10 @@ import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 //h-100vw = h-screen
 const Main = () => {
   return (
-    <div id="home" className="w-full h-screen text-center">
-      <div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center">
-        <div>
-          <p className="uppercase mt-16 text-sm tracking-widest text-[#4088d1]">
+    <div id="home" className="w-full h-auto text-center">
+      <div className="max-w-[1240] w-full h-full mx-auto p-4 flex justify-center items-center">
+        <div className="mt-28">
+          <p className="uppercase text-sm tracking-widest text-[#4088d1]">
             A LITTLE BIT ABOUT ME
           </p>
           <h1 className="py-4 text-gray-700">

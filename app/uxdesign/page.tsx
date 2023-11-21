@@ -1,9 +1,6 @@
 import React from "react";
 import Image from "next/legacy/image";
 import avatar from "../../public/images/avatar.png";
-import ShopeeFront from "../../public/heuristic/ShopeeFront.jpg";
-import { RiRadioButtonFill } from "react-icons/ri";
-import Slider from "../components/Slider";
 import Link from "next/link";
 
 const HeuristicPage = () => {
