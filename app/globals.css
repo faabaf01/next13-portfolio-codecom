@@ -24,6 +24,6 @@ html {
         @apply cursor-pointer
     }
     button {
-        @apply shadow-xl shadow-gray-400 rounded-xl uppercase bg-blue-600 text-white hover:bg-cyan-500
+        @apply shadow-lg shadow-gray-400 rounded-xl uppercase bg-blue-600 text-white hover:bg-pink-300
     }
 }

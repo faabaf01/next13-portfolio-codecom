@@ -9,8 +9,8 @@ function Heuristicpage() {
         <div className="absolute top-0 left-0 w-full h-[30vh] lg:h-[40vh] bg-black/60 z-10"></div>
 
         <div className="absolute max-w-[1240px] w-full text-white z-10 p-2 text-center">
-          <h2 className="py-2">Mini Case Study</h2>
-          <h3 className="text-[#81c0ff]">UX Design</h3>
+          <h2 className="py-5">Mini Case Study</h2>
+          <h3>UX Design</h3>
         </div>
       </div>
 

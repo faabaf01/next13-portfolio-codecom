@@ -40,14 +40,14 @@ export default function PokemonPage() {
           </p>
 
           <Link href={"https://nextjs-pokemon-9tcnz8br2-farah415.vercel.app"}>
-            <button className="px-8 py-2 mt-4 mr-8 bg-pink-300">Demo</button>
+            <button className="px-8 py-2 mt-4 mr-8">Demo</button>
           </Link>
           <Link
             href={
               "https://github.com/faabaf01/nextjs-pokemon-getserversideprops"
             }
           >
-            <button className="px-8 py-2 mt-4 bg-pink-300">Code</button>
+            <button className="px-8 py-2 mt-4">Code</button>
           </Link>
         </div>
 

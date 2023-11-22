@@ -2,7 +2,6 @@ import React from "react";
 import Image from "next/legacy/image";
 import avatar from "../../public/images/avatar.png";
 import Link from "next/link";
-import { HiOutlineChevronDoubleUp } from "react-icons/hi";
 
 const Uxportfolio = () => {
   return (
@@ -11,9 +10,15 @@ const Uxportfolio = () => {
         <div className="absolute top-0 left-0 w-full h-[30vh] lg:h-[40vh] bg-black/60 z-10"></div>
 
         <div className="absolute max-w-[1240px] w-full text-white z-10 p-2 text-center">
-          <h2 className="py-2">UX Design Portfolio</h2>
-          <h3 className="text-[#81c0ff]">Design with love for simplicity 🌟</h3>
+          <h2 className="py-5">UX Design Portfolio</h2>
+          <h3>Design with love for simplicity 🌟</h3>
         </div>
+      </div>
+      <div className="text-center">
+        <span>
+          From initial sketches to detailed wireframes and Heuristic
+          Evaluations, each project tells a unique story.
+        </span>
       </div>
 
       <div className="max-w-[1240px] mx-auto grid md:grid-cols-2 lg:grid-cols-3 gap-8 py-12">
