@@ -2,8 +2,9 @@ import React from "react";
 import Image from "next/legacy/image";
 import avatar from "../../public/images/avatar.png";
 import Link from "next/link";
+import { HiOutlineChevronDoubleUp } from "react-icons/hi";
 
-const HeuristicPage = () => {
+const Uxportfolio = () => {
   return (
     <>
       <div className="w-screen h-[40vh] lg:h-[50vh] relative flex items-center justify-center">
@@ -15,71 +16,70 @@ const HeuristicPage = () => {
         </div>
       </div>
 
-      <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-3 gap-8">
-        <div className="col-span-4">
-          <div className="container mx-auto my-8">
-            <div className="flex mb-8">
-              <div className="w-1/2 px-14 pt-10">
-                <h2 className="text-2xl font-bold pb-4">
-                  1️⃣ Heuristic Evaluation
-                </h2>
-                <p>
-                  A mini study of a shopping app, applying Jakob Nielsen&apos;s
-                  10 principles to understand app&apos;s good design.
-                </p>
-                <Link href="/uxdesign/heuristic">
-                  <button className="cursor-pointer mt-10 p-16 py-3">
-                    See Evaluation
-                  </button>
-                </Link>
-              </div>
-              <div className="w-1/2 pl-10">
-                <Image
-                  src={avatar}
-                  alt="Portfolio 1"
-                  className="w-full h-auto"
-                />
-              </div>
-            </div>
-
-            <div className="flex mb-8">
-              <div className="w-1/2 pl-8 lg:pl-14">
-                <Image
-                  src={avatar}
-                  alt="Portfolio 1"
-                  className="w-full h-auto"
-                />
-              </div>
-              <div className="w-1/2 px-14 pt-10 ">
-                <h2 className="text-2xl font-bold mb-4">2️⃣ Sketches</h2>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                </p>
-                <Link href="/uxdesign/sketches">
-                  <button className="cursor-pointer mt-10 p-16 py-3">
-                    See Sketches
-                  </button>
-                </Link>
-              </div>
-            </div>
-            <div className="flex mb-8">
-              <div className="w-1/2 px-14 pt-10 ">
-                <h2 className="text-2xl font-bold pb-4">3️⃣ Wireframes</h2>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                </p>
-                <Link href="/uxdesign/wireframes">
-                  <button className="cursor-pointer mt-10 p-16 py-3">
-                    See Wireframes
-                  </button>
-                </Link>
-              </div>
-              <div className="w-1/2 pl-10">
-                <Image src={avatar} alt="Project 3" className="w-full h-auto" />
-              </div>
-            </div>
+      <div className="max-w-[1240px] mx-auto grid md:grid-cols-2 lg:grid-cols-3 gap-8 py-12">
+        <div className="bg-blue-100 rounded-lg p-5 flex flex-col items-center">
+          <div className="p-10">
+            <Image
+              src={avatar}
+              alt="Portfolio 1"
+              className="w-full h-32 sm:h-48 object-cover"
+            />
+          </div>
+          <div className="text-center">
+            <h1 className="text-2xl font-bold pb-4">1️⃣ Heuristic Evaluation</h1>
+            <span className="block text-gray-500 text-sm">
+              A mini study of a shopping app, applying Jakob Nielsen&apos;s 10
+              principles to understand app&apos;s good design.
+            </span>
+            <Link href="/uxdesign/heuristic">
+              <button className="cursor-pointer mt-10 p-16 py-3">
+                See Evaluation
+              </button>
+            </Link>
+          </div>
+        </div>
+        {/* NEXT PROJECT */}
+        <div className="bg-blue-100 rounded-lg p-5 flex flex-col items-center">
+          <div className="p-10">
+            <Image
+              src={avatar}
+              alt="Portfolio 1"
+              className="w-full h-32 sm:h-48 object-cover"
+            />
+          </div>
+          <div className="text-center">
+            <h1 className="text-2xl font-bold pb-4">2️⃣ Sketches</h1>
+            <span className="block text-gray-500 text-sm">
+              A mini study of a shopping app, applying Jakob Nielsen&apos;s 10
+              principles to understand app&apos;s good design.
+            </span>
+            <Link href="/uxdesign/heuristic">
+              <button className="cursor-pointer mt-10 p-16 py-3">
+                See Sketches
+              </button>
+            </Link>
+          </div>
+        </div>
+        {/* NEXT PROJECT */}
+        <div className="bg-blue-100 rounded-lg p-5 flex flex-col items-center">
+          <div className="p-10">
+            <Image
+              src={avatar}
+              alt="Portfolio 1"
+              className="w-full h-32 sm:h-48 object-cover"
+            />
+          </div>
+          <div className="text-center">
+            <h1 className="text-2xl font-bold pb-4">3️⃣ Wireframes</h1>
+            <span className="block text-gray-500 text-sm">
+              A mini study of a shopping app, applying Jakob Nielsen&apos;s 10
+              principles to understand app&apos;s good design.
+            </span>
+            <Link href="/uxdesign/heuristic">
+              <button className="cursor-pointer mt-10 p-16 py-3">
+                See Wireframes
+              </button>
+            </Link>
           </div>
         </div>
       </div>
@@ -87,4 +87,4 @@ const HeuristicPage = () => {
   );
 };
 
-export default HeuristicPage;
+export default Uxportfolio;
