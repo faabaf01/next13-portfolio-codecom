@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/legacy/image";
-import avatar from "../../public/images/avatar.png";
+import img1 from "../../public/thumbnails/img1.png";
 import Link from "next/link";
 
 const Uxportfolio = () => {
@@ -25,7 +25,7 @@ const Uxportfolio = () => {
         <div className="bg-blue-100 rounded-lg p-5 flex flex-col items-center">
           <div className="p-10">
             <Image
-              src={avatar}
+              src={img1}
               alt="Portfolio 1"
               className="w-full h-32 sm:h-48 object-cover"
             />
@@ -47,7 +47,7 @@ const Uxportfolio = () => {
         <div className="bg-blue-100 rounded-lg p-5 flex flex-col items-center">
           <div className="p-10">
             <Image
-              src={avatar}
+              src={img1}
               alt="Portfolio 1"
               className="w-full h-32 sm:h-48 object-cover"
             />
@@ -58,7 +58,7 @@ const Uxportfolio = () => {
               A mini study of a shopping app, applying Jakob Nielsen&apos;s 10
               principles to understand app&apos;s good design.
             </span>
-            <Link href="/uxdesign/heuristic">
+            <Link href="/uxdesign/sketches">
               <button className="cursor-pointer mt-10 p-16 py-3">
                 See Sketches
               </button>
@@ -69,7 +69,7 @@ const Uxportfolio = () => {
         <div className="bg-blue-100 rounded-lg p-5 flex flex-col items-center">
           <div className="p-10">
             <Image
-              src={avatar}
+              src={img1}
               alt="Portfolio 1"
               className="w-full h-32 sm:h-48 object-cover"
             />
@@ -80,7 +80,7 @@ const Uxportfolio = () => {
               A mini study of a shopping app, applying Jakob Nielsen&apos;s 10
               principles to understand app&apos;s good design.
             </span>
-            <Link href="/uxdesign/heuristic">
+            <Link href="/uxdesign/wireframes">
               <button className="cursor-pointer mt-10 p-16 py-3">
                 See Wireframes
               </button>

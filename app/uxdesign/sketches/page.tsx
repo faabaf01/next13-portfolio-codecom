@@ -1,8 +1,9 @@
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import Slider from "../../components/Slider";
+import sketch1 from "../../../public/images/Sketches/sketch1.jpg";
 
-function HeuristicPage() {
+function SketchesPage() {
   return (
     <>
       <div className="w-screen h-[40vh] lg:h-[50vh] relative flex items-center justify-center">
@@ -24,23 +25,29 @@ function HeuristicPage() {
             UX Portfolio
           </Link>
           &nbsp;&gt;&nbsp;
-          <Link href="/uxdesign/heuristic" className="hover:underline">
-            Heuristic Evaluation
+          <Link href="/uxdesign/sketches" className="hover:underline">
+            Sketches
           </Link>
         </p>
         <div className="col-span-4 ">
-          <h2>Heuristic Evaluation</h2>
+          <h2>Sketches</h2>
 
           <p className="py-4 text-gray-600">
-            This is a Mini Case Study of an app that I regularly use. I choose
-            the app <strong>Shopee</strong> - the popular e-commerce platform in
-            South East Asia. The platform provides customers with an easy,
-            secure and fast online shopping experience through strong payment
-            and fulfillment support. Let&apos;s go through Jakob Nielsen&apos;s
-            10 general principles for interaction design with this example app.
+            Welcome to Sketches! This page is to showcase some of my{" "}
+            <strong>Sketches</strong> that I drew during the UX Design bootcamp
+            as exercises. It is incredibly enjoyable because it allows your
+            imagination to roam freely, while your hands bring those imaginative
+            visions to life on paper.
           </p>
-
-          <Slider />
+          <div className="w-full h-full overflow-hidden rounded-md shadow-md">
+            <Image
+              src={sketch1}
+              alt="pic"
+              width={700}
+              height={700}
+              className="object-cover"
+            />
+          </div>
 
           <Link href="/uxdesign">
             <button className="cursor-pointer mt-10 p-16 py-3">Go back</button>
@@ -51,4 +58,4 @@ function HeuristicPage() {
   );
 }
 
-export default HeuristicPage;
+export default SketchesPage;
