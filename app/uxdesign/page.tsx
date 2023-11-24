@@ -16,6 +16,10 @@ const Uxportfolio = () => {
       </div>
       <div className="text-center">
         <span>
+          <i className="font-bold text-pink-400">
+            (This page is currently under development.)
+          </i>
+          <br />
           From initial sketches to detailed wireframes and Heuristic
           Evaluations, each project tells a unique story.
         </span>
