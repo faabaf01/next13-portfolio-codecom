@@ -7,7 +7,7 @@ import react from "../../public/skills/react.png";
 import tailwind from "../../public/skills/tailwind.png";
 import firebase from "../../public/skills/firebase.png";
 import github from "../../public/skills/github1.png";
-import shopify from "../../public/skills/shopify.png";
+import nextjs from "../../public/skills/nextjs.png";
 
 const Skills = () => {
   return (
@@ -91,10 +91,10 @@ const Skills = () => {
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
-                <Image src={shopify} width={64} height={64} alt={"shopify"} />
+                <Image src={nextjs} width={64} height={64} alt={"nextjs"} />
               </div>
               <div className="flex flex-col items-center justify-center">
-                <h3>Shopify</h3>
+                <h3>Next.js</h3>
               </div>
             </div>
           </div>

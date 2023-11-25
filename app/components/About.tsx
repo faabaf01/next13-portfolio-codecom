@@ -5,7 +5,7 @@ import aboutImg from "../../public/about/aboutImg.jpg";
 
 const About = () => {
   return (
-    <div id="about" className="w-full md:h-screen p-2 flex items-center py-16">
+    <div id="about" className="w-full md:h-screen px-8 flex items-center py-16">
       <div className="max-w-[1240px] mx-auto md:grid grid-cols-3 gap-8">
         <div className="col-span-2">
           <p className="uppercase text-xl tracking-widest text-[#4088d1]">
@@ -21,21 +21,24 @@ const About = () => {
           </p>
           <p className="py-2 text-gray-600">
             Right after graduation, I was interested in programming and aspired
-            to become a frontend developer. I began my journey by joining a
-            startup company that provided valuable resources for me to learn the
-            essential skillsets in frontend development. As a result, I was able
-            to deploy multiple projects into my Github.
+            to become a <strong>Frontend Developer</strong>. I joined a startup
+            company that provided valuable resources for me to learn the
+            essential skillsets. As a result, I was able to deploy multiple
+            projects into my Github. The website you are currently viewing was
+            built during my free time.
           </p>
           <p className="py-2 text-gray-600">
-            I soon realized that it is challenging to become a developer and I
-            require more experience in this field. Undeterred, I decided to
-            explore a different area within the IT field. I was enrolled in a{" "}
-            <strong>UX Design bootcamp</strong>. Acquiring new skills to become
-            a <strong>UX Designer</strong>, is very interesting for me since I
-            often found myself drawn to the design aspects of web development
-            and the impact it has on user experience satisfaction when they
-            visit my website.
+            After that, I was enrolled in a{" "}
+            <strong>User Experience Design</strong> bootcamp for about 3 weeks
+            and later showcased my app design created with Figma. Start by
+            understanding people, then digging into research and keep refining
+            your design until you are confident that you have created an app
+            that are not just easy to use but also enjoyable. It&apos;s a cool
+            mix of creativity, understanding, and problem-solving!
           </p>
+          {/* <p>I soon realized that it is challenging to become a developer and I
+            require more experience in this field. Undeterred, I decided to
+            explore a different area within the IT field.</p> */}
           <p className="py-2 text-[#4088d1] underline cursor-pointer">
             <Link href={"https://github.com/faabaf01"}>
               Check out some of my latest projects.

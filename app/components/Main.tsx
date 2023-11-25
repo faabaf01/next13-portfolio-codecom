@@ -54,26 +54,26 @@ const Main = () => {
             </div>
           </div>
 
-          <p className="mt-5">
+          <p className="mt-5 mx-3">
             <strong>
-              Actively seeking a full-time position as a UX Designer and
-              available to start on 1st January 2024.
+              Actively seeking a full-time position as a Jr Frontend Web
+              Developer and available to start on January 1st, 2024.
             </strong>
             {/* Currently, I am focused on learning and building a
             responsive front-end web applications while integrating back-end
             technologies to my projects. */}
           </p>
           <p className="py-4 text-gray-600 max-w-[70%] m-auto">
-            Graduated in 2022 from University Malaya with a Bachelor of Science
-            in <strong>Bioinformatics</strong> - a study that involves computer
-            science and information technology to process biological data. Was a
-            self-taught Frontend Developer, starting a career as a UX Designer.
-            Passionate about user research, wireframing and prototyping.
-            Completed UX Design course as part of the 2023 K-Youth Development
-            Program with Excelerate Asia. Currently working as an intern at
-            Edvolution Enterprise.
+            A self-taught Frontend Web Developer. Graduated in Dec 2022 from
+            University Malaya with a Bachelor of Science in Bioinformatics.
+            Completed UX Design course from General Assembly, as part of the
+            2023 K-Youth Development Program with Excelerate Asia. Currently
+            working as an intern at Edvolution Enterprise.
           </p>
-
+          {/* <p> - a study that involves computer
+            science and information technology to process biological data. 
+            A self-taught Frontend Developer, starting a career as a UX Designer.
+            Passionate about user research, wireframing and prototyping.</p> */}
           <Link href="/uxdesign">
             <button className="cursor-pointer pl-6 pr-8 py-3 mb-8">
               See UX Design portfolio

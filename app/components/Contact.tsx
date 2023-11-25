@@ -44,10 +44,10 @@ const Contact = () => {
               </div>
               <div>
                 <h2 className="pt-2">Farah</h2>
-                <p>Aspiring UX Designer</p>
+                <p>Aspiring Frontend Developer</p>
                 <p className="py-4 text-gray-600">
-                  I am available for a full-time position as a UX Designer.
-                  Contact me and let&apos;s talk!
+                  I am available for a full-time position as a Frontend
+                  Developer. Contact me and let&apos;s talk!
                 </p>
               </div>
               <div>
