@@ -30,7 +30,7 @@ const About = () => {
           <p className="py-2 text-gray-600">
             After that, I was enrolled in a{" "}
             <strong>User Experience Design</strong> bootcamp for about 3 weeks
-            and later showcased my app design created with Figma. Start by
+            and later showcased my app design created with Figma. Started by
             understanding people, then digging into research and keep refining
             your design until you are confident that you have created an app
             that are not just easy to use but also enjoyable. It&apos;s a cool
