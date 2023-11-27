@@ -79,8 +79,12 @@ const Main = () => {
               See UX Design portfolio
             </button>
           </Link>
+
           <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
-            <SocIcons icon={<FaLinkedinIn />} />
+            <SocIcons icon={<FaLinkedinIn />} text="LinkedIn" />
+            <SocIcons icon={<FaGithub />} text="GitHub" />
+            <SocIcons icon={<AiOutlineMail />} text="E-mail" />
+            <SocIcons icon={<BsFillPersonLinesFill />} text="Contact Info" />
           </div>
 
           {/* <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
@@ -108,7 +112,7 @@ interface SocIconsProps {
   text?: string;
 }
 
-const SocIcons = ({ icon, text = "tooltip !" }: SocIconsProps) => (
+const SocIcons = ({ icon, text }: SocIconsProps) => (
   <div className="social-icons group">
     {icon}
 
