@@ -79,8 +79,11 @@ const Main = () => {
               See UX Design portfolio
             </button>
           </Link>
-
           <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
+            <SocIcons icon={<FaLinkedinIn />} />
+          </div>
+
+          {/* <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
             <div className="rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300">
               <FaLinkedinIn />
             </div>
@@ -93,11 +96,24 @@ const Main = () => {
             <div className="rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300">
               <BsFillPersonLinesFill />
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
   );
 };
+
+interface SocIconsProps {
+  icon: React.ReactNode;
+  text?: string;
+}
+
+const SocIcons = ({ icon, text = "tooltip !" }: SocIconsProps) => (
+  <div className="social-icons group">
+    {icon}
+
+    <span className="social-tooltip group-hover:scale-100">{text}</span>
+  </div>
+);
 
 export default Main;

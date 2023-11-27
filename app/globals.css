@@ -27,3 +27,12 @@ html {
         @apply shadow-lg shadow-gray-400 rounded-xl uppercase bg-blue-600 text-white hover:bg-pink-300
     }
 }
+
+@layer components {
+    .social-icons {
+        @apply rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-linear duration-300 hover:bg-pink-300 hover:text-white;
+    }
+    .social-tooltip {
+        @apply absolute w-auto p-2 m-2 min-w-max left-10 rounded-md text-white bg-gray-600 text-xs font-bold transition-all duration-100 scale-0 origin-left;
+    }
+}
