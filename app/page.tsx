@@ -11,10 +11,10 @@ export default function Home() {
   return (
     <div>
       <Main />
-      <Timeline />
       <About />
       <Skills />
       <Projects />
+      <Timeline />
       <Contact />
     </div>
   );

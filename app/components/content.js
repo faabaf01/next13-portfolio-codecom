@@ -1,14 +1,14 @@
-const contents = [
+const steps = [
   {
     title: "TITLE",
     description: "DESCRIPTION",
     content: [
       {
-        title: "title here",
+        title: "title 1",
         subtitles: ["first point", "second point", "third point"],
       },
       {
-        title: "another title here",
+        title: "title 2",
         subtitles: ["first point", "second point", "third point"],
       },
     ],
@@ -18,13 +18,15 @@ const contents = [
     description: "DESCRIPTION",
     content: [
       {
-        title: "title here",
+        title: "title 1",
         subtitles: ["first point", "second point", "third point"],
       },
       {
-        title: "another title here",
+        title: "title 2",
         subtitles: ["first point", "second point", "third point"],
       },
     ],
   },
 ];
+
+export default steps;

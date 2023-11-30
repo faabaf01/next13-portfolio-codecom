@@ -1,4 +1,6 @@
 import React from "react";
+import items from "./content";
+import Item from "./item";
 
 const Timeline = () => {
   return (
@@ -6,7 +8,10 @@ const Timeline = () => {
       <p className="uppercase text-xl tracking-widest text-[#4088d1]">
         Under Development
       </p>
-      <h2 className="py-4">Timeline</h2>
+      {/* <h2 className="py-4">Timeline</h2> */}
+      {items.map((item, index) => (
+        <Item data={item} key={item.title} index={undefined} />
+      ))}
     </div>
   );
 };
