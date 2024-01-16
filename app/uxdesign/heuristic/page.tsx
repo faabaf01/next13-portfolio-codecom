@@ -32,8 +32,8 @@ function HeuristicPage() {
           <h2>Heuristic Evaluation</h2>
 
           <p className="py-4 text-gray-600">
-            This is a Mini Case Study of an app that I regularly use. I choose
-            the app <strong>Shopee</strong> - the popular e-commerce platform in
+            This is a Mini Case Study of an app that I regularly use. I used{" "}
+            <strong>Shopee</strong> app, the popular e-commerce platform in
             South East Asia. The platform provides customers with an easy,
             secure and fast online shopping experience through strong payment
             and fulfillment support. Let&apos;s go through Jakob Nielsen&apos;s

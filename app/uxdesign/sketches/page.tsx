@@ -33,18 +33,17 @@ function SketchesPage() {
           <h2>Sketches</h2>
 
           <p className="py-4 text-gray-600">
-            Welcome to Sketches! This page is to showcase some of my{" "}
-            <strong>Sketches</strong> that I drew during the UX Design bootcamp
-            as exercises. It is incredibly enjoyable because it allows your
-            imagination to roam freely, while your hands bring those imaginative
-            visions to life on paper.
+            This page is to showcase some of my <strong>Sketches</strong> that I
+            drew during the UX Design bootcamp as exercises. It is incredibly
+            enjoyable because it allows your imagination to roam freely, while
+            your hands bring those imaginative visions to life on paper.
           </p>
           <div className="w-full h-full overflow-hidden rounded-md shadow-md">
             <Image
               src={sketch1}
               alt="pic"
-              width={700}
-              height={700}
+              width={300}
+              height={300}
               className="object-cover"
             />
           </div>
