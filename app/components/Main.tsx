@@ -57,7 +57,7 @@ const Main = () => {
           <p className="mt-5 mx-3">
             <strong>
               Actively seeking a full-time position as a Jr Frontend Web
-              Developer, available to start on January 2024.
+              Developer, available to start on February 2024.
             </strong>
             {/* Currently, I am focused on learning and building a
             responsive front-end web applications while integrating back-end
@@ -66,10 +66,12 @@ const Main = () => {
           <p className="py-4 text-gray-600 max-w-[70%] m-auto">
             A self-taught Frontend Web Developer. Graduated in Dec 2022 from
             University Malaya with a Bachelor of Science in Bioinformatics
-            (involves computer science and information technology to process
-            biological data). Completed UX Design course from General Assembly,
-            as part of the 2023 K-Youth Development Program with Excelerate
-            Asia. Currently working as an intern at Edvolution Enterprise.
+            (study involving computer science and information technology to
+            process biological data). Completed UX Design course from General
+            Assembly and worked as an intern for at EdvolutionEnterprise as part
+            of the requirement for 2023 K-Youth Development Program under
+            Khazanah Nasional and Excelerate Asia. Currently looking for
+            full-time job.
           </p>
           {/* <p> - a study that involves computer
             science and information technology to process biological data. 
