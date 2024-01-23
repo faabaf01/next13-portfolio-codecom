@@ -55,10 +55,7 @@ const Main = () => {
           </div>
 
           <p className="mt-5 mx-3">
-            <strong>
-              Actively seeking a full-time position as a Jr Frontend Web
-              Developer, available to start on February 2024.
-            </strong>
+            <strong>Aspiring Frontend Web Developer.</strong>
             {/* Currently, I am focused on learning and building a
             responsive front-end web applications while integrating back-end
             technologies to my projects. */}
@@ -69,9 +66,9 @@ const Main = () => {
             (study involving computer science and information technology to
             process biological data). Completed UX Design course from General
             Assembly and worked as an intern for at EdvolutionEnterprise as part
-            of the requirement for 2023 K-Youth Development Program under
-            Khazanah Nasional and Excelerate Asia. Currently looking for
-            full-time job.
+            of the requirement for 2023 K-Youth Development Program. Currently
+            focused on learning and building a responsive front-end web
+            applications while integrating back-end technologies to my projects.
           </p>
           {/* <p> - a study that involves computer
             science and information technology to process biological data. 

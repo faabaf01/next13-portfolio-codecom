@@ -1,6 +1,6 @@
 import Image from "next/legacy/image";
 import React from "react";
-import twitchImg from "../../public/projects/twitch.jpg";
+import shoeFinderImg from "../../public/projects/shoefinder.jpg";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
 
@@ -9,7 +9,7 @@ import Link from "next/link";
 //what you learnt in that project
 //any obstacles you had to overcome (programming wise)
 
-export default function TwitchPage() {
+export default function ShoefinderPage() {
   return (
     <div className="w-full">
       <div className="w-screen h-[30vh] lg:h-[40vh] relative">
@@ -18,12 +18,12 @@ export default function TwitchPage() {
           className="absolute z-1"
           layout="fill"
           objectFit="cover"
-          src={twitchImg}
+          src={shoeFinderImg}
           alt="/"
         />
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
-          <h2 className="py-2">Twitch UI</h2>
-          <h3>React JS / Tailwind / Firebase</h3>
+          <h2 className="py-2">ShoeFinder UI</h2>
+          <h3>React JS / CSS / HTML</h3>
         </div>
       </div>
 
@@ -32,17 +32,20 @@ export default function TwitchPage() {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            This app was built using React JS and is hosted on Firebase. Users
-            are able to search properties based on an Address, City, or ZIP code
-            to retrieve a list of active properties currently for sale. You will
-            be able to view property information as well as the specific
-            location of the property integrated with the Google Maps API. User
-            authentication is available so you can signup and signin to your
-            account with an email address in order to save your favorite
-            properties. This is made possible with Zillow API.
+            This app was built using React JS and is hosted on Vercel. Users are
+            able to search for shoes based on filter on the left side which
+            include price, color and category to retrieve a list of shoes. In
+            upcoming update, you will be able to view specific shoe information.
+            User authentication will also be added so you can signup and signin
+            to your account with an email address in order to save your favorite
+            shoes.
           </p>
-          <button className="px-8 py-2 mt-4 mr-8">Demo</button>
-          <button className="px-8 py-2 mt-4">Code</button>
+          <Link href={"https://ecom-shoes-adv-filtering.vercel.app/"}>
+            <button className="px-8 py-2 mt-4 mr-8">Demo</button>
+          </Link>
+          <Link href={"https://github.com/faabaf01/adv-filtering"}>
+            <button className="px-8 py-2 mt-4 mr-8">Code</button>
+          </Link>
         </div>
         <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4">
           <div className="p-2">
@@ -54,7 +57,7 @@ export default function TwitchPage() {
               </p>
               <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" />
-                Tailwind
+                CSS
               </p>
               <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" />
@@ -62,21 +65,13 @@ export default function TwitchPage() {
               </p>
               <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" />
-                Firebase
-              </p>
-              <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" />
-                Google API
-              </p>
-              <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" />
-                Zillow API
+                HTML
               </p>
             </div>
           </div>
         </div>
         <Link href="/#projects">
-          <p className="underline cursor-pointer">Back</p>
+          <button className="cursor-pointer mt-10 p-16 py-3">Go Home</button>
         </Link>
       </div>
     </div>

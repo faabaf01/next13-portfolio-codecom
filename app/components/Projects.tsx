@@ -4,7 +4,7 @@ import React from "react";
 import pokemonImg from "../../public/projects/pokemon.jpg";
 import linkedinImg from "../../public/projects/linkedin.jpg";
 import netflixImg from "../../public/projects/netflix.jpg";
-import twitchImg from "../../public/projects/twitch.jpg";
+import shoeFinderImg from "../../public/projects/shoefinder.jpg";
 import ProjectItem from "./ProjectItem";
 
 const Projects = () => {
@@ -32,9 +32,9 @@ const Projects = () => {
             projectUrl="/netflix"
           />
           <ProjectItem
-            title="Twitch"
-            backgroundImg={twitchImg}
-            projectUrl="/twitch"
+            title="ShoeFinder"
+            backgroundImg={shoeFinderImg}
+            projectUrl="/shoefinder"
           />
         </div>
       </div>

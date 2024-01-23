@@ -33,19 +33,15 @@ export default function LinkedinPage() {
           <h2>Overview</h2>
           <p>
             This app was built using React JS and is hosted on Firebase. Users
-            are able to search properties based on an Address, City, or ZIP code
-            to retrieve a list of active properties currently for sale. You will
-            be able to view property information as well as the specific
-            location of the property integrated with the Google Maps API. User
-            authentication is available so you can signup and signin to your
-            account with an email address in order to save your favorite
-            properties. This is made possible with Zillow API.
+            are able to login using Google account authentication and write a
+            new post, submit it and view the post, just like real one. This is
+            made possible with Firebase.
           </p>
           <Link href={"https://linkedin-clone-2db41.web.app"}>
-            <button className="px-8 py-2 mt-4 mr-8 bg-pink-300">Demo</button>
+            <button className="px-8 py-2 mt-4 mr-8">Demo</button>
           </Link>
           <Link href={"https://github.com/faabaf01/linkedin-clone"}>
-            <button className="px-8 py-2 mt-4 mr-8 bg-pink-300">Code</button>
+            <button className="px-8 py-2 mt-4 mr-8">Code</button>
           </Link>
         </div>
         <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4">
@@ -67,14 +63,6 @@ export default function LinkedinPage() {
               <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" />
                 Firebase
-              </p>
-              <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" />
-                Google API
-              </p>
-              <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" />
-                Zillow API
               </p>
             </div>
           </div>

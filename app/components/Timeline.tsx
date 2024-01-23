@@ -9,9 +9,9 @@ const Timeline = () => {
         Under Development
       </p>
       {/* <h2 className="py-4">Timeline</h2> */}
-      {items.map((item, index) => (
+      {/* {items.map((item, index) => (
         <Item data={item} key={item.title} index={undefined} />
-      ))}
+      ))} */}
     </div>
   );
 };
