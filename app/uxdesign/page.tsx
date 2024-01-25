@@ -23,7 +23,7 @@ const Uxportfolio = () => {
         </span>
       </div>
 
-      <div className="max-w-[1240px] mx-auto grid md:grid-cols-2 lg:grid-cols-3 gap-8 py-12">
+      <div className=" m-[30px] grid md:grid-cols-2 lg:grid-cols-3 gap-8 py-12">
         <div className="bg-blue-100 rounded-lg p-5 flex flex-col items-center">
           <div className="p-10">
             <Image
